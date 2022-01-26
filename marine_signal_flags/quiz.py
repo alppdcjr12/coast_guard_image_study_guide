@@ -3,6 +3,7 @@ import os
 
 flags = list("abcdefghijklmnopqrstuvwxyz")
 flags += [
+  "nadazero",
   "unaone",
   "bissotwo",
   "terrathree",
@@ -12,8 +13,13 @@ flags += [
   "setteseven",
   "oktoeight",
   "novenine",
-]
-flags += ['answering', 'first_repeater', 'second_repeater', 'third_repeater']
+  'answering',
+  'first_repeater',
+  'second_repeater',
+  'third_repeater_commanding_officer_not_on_board',
+  "SOPA_pennant",
+  "prep_pennant",
+  ]
 
 total = len(flags)
 
