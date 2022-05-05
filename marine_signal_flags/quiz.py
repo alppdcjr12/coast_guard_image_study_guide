@@ -19,6 +19,8 @@ flags += [
   'third_repeater_commanding_officer_not_on_board',
   "SOPA_pennant",
   "prep_pennant",
+  "coast_guard_ensign",
+  "coast_guard_standard",
   ]
 
 total = len(flags)
